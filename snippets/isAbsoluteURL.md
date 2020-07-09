@@ -1,4 +1,7 @@
-### isAbsoluteURL
+---
+title: isAbsoluteURL
+tags: string,browser,url,intermediate
+---
 
 Returns `true` if the given string is an absolute URL, `false` otherwise.
 

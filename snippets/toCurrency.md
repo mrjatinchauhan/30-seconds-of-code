@@ -1,4 +1,7 @@
-### toCurrency
+---
+title: toCurrency
+tags: math,string,intermediate
+---
 
 Take a number and return specified currency formatting.
 

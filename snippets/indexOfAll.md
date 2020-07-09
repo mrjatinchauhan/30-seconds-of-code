@@ -1,4 +1,7 @@
-### indexOfAll
+---
+title: indexOfAll
+tags: array,intermediate
+---
 
 Returns all indices of `val` in an array.
 If `val` never occurs, returns `[]`.
@@ -11,6 +14,6 @@ const indexOfAll = (arr, val) => arr.reduce((acc, el, i) => (el === val ? [...ac
 ```
 
 ```js
-indexOfAll([1, 2, 3, 1, 2, 3], 1); // [0,3]
+indexOfAll([1, 2, 3, 1, 2, 3], 1); // [0, 3]
 indexOfAll([1, 2, 3], 4); // []
 ```

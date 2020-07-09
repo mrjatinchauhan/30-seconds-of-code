@@ -1,4 +1,7 @@
-### intersection
+---
+title: intersection
+tags: array,math,intermediate
+---
 
 Returns a list of elements that exist in both arrays.
 
@@ -7,7 +10,7 @@ Create a `Set` from `b`, then use `Array.prototype.filter()` on `a` to only keep
 ```js
 const intersection = (a, b) => {
   const s = new Set(b);
-  return a.filter(x => s.has(x));
+  return [...new Set(a)].filter(x => s.has(x));
 };
 ```
 

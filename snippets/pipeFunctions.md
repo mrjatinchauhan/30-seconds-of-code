@@ -1,4 +1,7 @@
-### pipeFunctions
+---
+title: pipeFunctions
+tags: function,intermediate
+---
 
 Performs left-to-right function composition.
 

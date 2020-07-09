@@ -1,14 +1,17 @@
-### getType
+---
+title: getType
+tags: type,beginner
+---
 
 Returns the native type of a value.
 
-Returns lowercased constructor name of value, `"undefined"` or `"null"` if value is `undefined` or `null`.
+Return `'undefined'` or `'null'` if the value is `undefined` or `null`.
+Otherwise, use `Object.prototype.constructor.name` to get the name of the constructor.
 
 ```js
-const getType = v =>
-  v === undefined ? 'undefined' : v === null ? 'null' : v.constructor.name.toLowerCase();
+const getType = v => (v === undefined ? 'undefined' : v === null ? 'null' : v.constructor.name);
 ```
 
 ```js
-getType(new Set([1, 2, 3])); // 'set'
+getType(new Set([1, 2, 3])); // 'Set'
 ```

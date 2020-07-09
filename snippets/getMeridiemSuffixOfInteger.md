@@ -1,4 +1,7 @@
-### getMeridiemSuffixOfInteger
+---
+title: getMeridiemSuffixOfInteger
+tags: date,beginner
+---
 
 Converts an integer to a suffixed string, adding `am` or `pm` based on its value.
 
@@ -9,10 +12,10 @@ const getMeridiemSuffixOfInteger = num =>
   num === 0 || num === 24
     ? 12 + 'am'
     : num === 12
-      ? 12 + 'pm'
-      : num < 12
-        ? (num % 12) + 'am'
-        : (num % 12) + 'pm';
+    ? 12 + 'pm'
+    : num < 12
+    ? (num % 12) + 'am'
+    : (num % 12) + 'pm';
 ```
 
 ```js

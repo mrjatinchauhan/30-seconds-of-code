@@ -1,4 +1,7 @@
-### join
+---
+title: join
+tags: array,intermediate
+---
 
 Joins all elements of an array into a string and returns this string.
 Uses a separator and an end separator.
@@ -8,6 +11,7 @@ Omit the second argument, `separator`, to use a default separator of `','`.
 Omit the third argument, `end`, to use the same value as `separator` by default.
 
 ```js
+
 const join = (arr, separator = ',', end = separator) =>
   arr.reduce(
     (acc, val, i) =>

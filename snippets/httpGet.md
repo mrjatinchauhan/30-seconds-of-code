@@ -1,4 +1,7 @@
-### httpGet
+---
+title: httpGet
+tags: browser,url,intermediate
+---
 
 Makes a `GET` request to the passed URL.
 

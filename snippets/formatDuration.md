@@ -1,4 +1,7 @@
-### formatDuration
+---
+title: formatDuration
+tags: date,math,string,intermediate
+---
 
 Returns the human readable format of the given number of milliseconds.
 

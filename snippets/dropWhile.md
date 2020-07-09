@@ -1,4 +1,7 @@
-### dropWhile
+---
+title: dropWhile
+tags: array,function,intermediate
+---
 
 Removes elements in an array until the passed function returns `true`. Returns the remaining elements in the array.
 
@@ -13,5 +16,5 @@ const dropWhile = (arr, func) => {
 ```
 
 ```js
-dropWhile([1, 2, 3, 4], n => n >= 3); // [3,4]
+dropWhile([1, 2, 3, 4], n => n >= 3); // [3, 4]
 ```

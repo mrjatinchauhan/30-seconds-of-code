@@ -1,4 +1,7 @@
-### functionName
+---
+title: functionName
+tags: array,intermediate
+---
 
 Explain briefly what the snippet does.
 

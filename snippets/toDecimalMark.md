@@ -1,8 +1,13 @@
-### toDecimalMark
+---
+title: toDecimalMark
+tags: math,beginner
+---
 
-Use `toLocaleString()` to convert a float-point arithmetic to the [Decimal mark](https://en.wikipedia.org/wiki/Decimal_mark) form. It makes a comma separated string from a number.
+Converts a number to a decimal mark formatted string.
 
- ```js
+Use `Number.prototype.toLocaleString()` to convert the numbre to decimal mark format.
+
+```js
 const toDecimalMark = num => num.toLocaleString('en-US');
 ```
 

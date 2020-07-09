@@ -1,8 +1,11 @@
-### stringPermutations
-
-⚠️ **WARNING**: This function's execution time increases exponentially with each character. Anything more than 8 to 10 characters will cause your browser to hang as it tries to solve all the different combinations.
+---
+title: stringPermutations
+tags: string,recursion,advanced
+---
 
 Generates all permutations of a string (contains duplicates).
+
+⚠️ **WARNING**: This function's execution time increases exponentially with each character. Anything more than 8 to 10 characters will cause your browser to hang as it tries to solve all the different combinations.
 
 Use recursion.
 For each letter in the given string, create all the partial permutations for the rest of its letters.

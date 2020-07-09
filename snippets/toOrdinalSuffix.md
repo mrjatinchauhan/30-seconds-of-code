@@ -1,4 +1,7 @@
-### toOrdinalSuffix
+---
+title: toOrdinalSuffix
+tags: math,intermediate
+---
 
 Adds an ordinal suffix to a number.
 

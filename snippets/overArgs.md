@@ -1,4 +1,7 @@
-### overArgs
+---
+title: overArgs
+tags: function,intermediate
+---
 
 Creates a function that invokes the provided function with its arguments transformed.
 

@@ -1,4 +1,7 @@
-### nest
+---
+title: nest
+tags: object,intermediate
+---
 
 Given a flat array of objects linked to one another, it will nest them recursively.
 Useful for nesting comments, such as the ones on reddit.com.
@@ -12,7 +15,7 @@ Omit the third argument, `link`, to use `'parent_id'` as the default property wh
 const nest = (items, id = null, link = 'parent_id') =>
   items
     .filter(item => item[link] === id)
-    .map(item => ({ ...item, children: nest(items, item.id) }));
+    .map(item => ({ ...item, children: nest(items, item.id, link) }));
 ```
 
 ```js
@@ -26,4 +29,3 @@ const comments = [
 ];
 const nestedComments = nest(comments); // [{ id: 1, parent_id: null, children: [...] }]
 ```
-
