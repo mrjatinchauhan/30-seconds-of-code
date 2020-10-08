@@ -5,7 +5,7 @@ tags: object,function,intermediate
 
 Binds methods of an object to the object itself, overwriting the existing method.
 
-Use `Array.prototype.forEach()` to return a `function` that uses `Function.prototype.apply()` to apply the given context (`obj`) to `fn` for each function specified.
+- Use `Array.prototype.forEach()` to return a `function` that uses `Function.prototype.apply()` to apply the given context (`obj`) to `fn` for each function specified.
 
 ```js
 const bindAll = (obj, ...fns) =>
@@ -27,5 +27,5 @@ var view = {
   }
 };
 bindAll(view, 'click');
-jQuery(element).on('click', view.click); // Logs 'clicked docs' when clicked.
+document.body.addEventListener('click', view.click); // Log 'clicked docs' when clicked.
 ```

@@ -1,11 +1,11 @@
 ---
 title: toTitleCase
-tags: string,regepx,intermediate
+tags: string,regexp,intermediate
 ---
 
 Converts a string to title case.
 
-Break the string into words, using a regexp, and combine them capitalizing the first letter of each word and adding a whitespace between them.
+- Break the string into words, using a regexp, and combine them capitalizing the first letter of each word and adding a whitespace between them.
 
 ```js
 const toTitleCase = str =>
